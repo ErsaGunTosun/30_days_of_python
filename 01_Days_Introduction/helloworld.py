@@ -1,7 +1,6 @@
 # Day 1
 
 # Math operation(Matematiksel işlem)
-
 print(3+1)    # addition(toplama)
 print(7-2)    # subtraction(çıkarma)
 print(5*9)    # multiplication(çarpma)
@@ -45,4 +44,16 @@ print('---**---')
 print(type(w))
 print(w[-1])
 
+# demet ve liste arasındaki en önemli fark bir liste elemanını sonrada değiştirilebiliyorken demet böyle bir şey olmaz.
 
+
+
+#Exercise
+
+# (2,3)  (10,9) kordinatları arasında mesafeyi hesaplayınız
+
+x = (10-2)**2
+y = (9-3)**2
+
+answer = (x + y) ** (1/2)
+print(answer) 
